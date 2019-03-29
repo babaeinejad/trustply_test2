@@ -1,0 +1,30 @@
+.main-container {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+}
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.form-container {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .form-container > * {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .form-button-row button,
+.form-button-row a {
+  margin-right: 8px;
+}
